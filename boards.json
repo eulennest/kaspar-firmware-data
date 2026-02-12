@@ -25,7 +25,7 @@
             "version": "1.0.33",
             "url": "v1.0.33/manifest.json",
             "date": "2026-02-12",
-            "description": "Proper ES8388 driver (correct register map, stereo I2S, clean code)"
+            "description": "Proper ES8388 driver (correct register map, refactored audio code)"
           },
           {
             "version": "1.0.32",
