@@ -1,0 +1,28 @@
+{
+  "name": "Kaspar Voice - ESP32-S3 1.28inch BOX",
+  "version": "1.0.28",
+  "home_assistant_domain": "kaspar_voice",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "bootloader.bin",
+          "offset": "0x0",
+          "size": 15360
+        },
+        {
+          "path": "partitions.bin",
+          "offset": "0x8000",
+          "size": 3072
+        },
+        {
+          "path": "firmware.bin",
+          "offset": "0x10000",
+          "size": 875312
+        }
+      ]
+    }
+  ]
+}
