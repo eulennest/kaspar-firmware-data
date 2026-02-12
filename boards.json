@@ -9,29 +9,23 @@
       "description": "ESP32-S3-N16R8-AI BOX Version mit 1.28inch 240x240 GC9A01 TFT Display",
       "firmware": {
         "latest": {
-          "version": "1.0.28",
-          "url": "data/v1.0.28/firmware.bin",
-          "date": "2026-02-11"
+          "version": "1.0.29",
+          "url": "v1.0.29/manifest.json",
+          "date": "2026-02-12"
         },
         "versions": [
           {
-            "version": "1.0.28",
-            "url": "data/v1.0.28/firmware.bin",
-            "date": "2026-02-11",
+            "version": "1.0.29",
+            "url": "v1.0.29/manifest.json",
+            "date": "2026-02-12",
             "latest": true,
+            "description": "ES8311 audio driver fix (correct I2C pins, GPIO 41/42)"
+          },
+          {
+            "version": "1.0.28",
+            "url": "v1.0.28/manifest.json",
+            "date": "2026-02-11",
             "description": "ES8311 DAC I2C + ESP Web Tools"
-          },
-          {
-            "version": "1.0.27",
-            "url": "data/v1.0.27/firmware.bin",
-            "date": "2026-02-09",
-            "description": "Display Text Centering"
-          },
-          {
-            "version": "1.0.25",
-            "url": "data/v1.0.25/firmware.bin",
-            "date": "2026-02-09",
-            "description": "Display Centering attempt"
           }
         ]
       }
