@@ -9,16 +9,22 @@
       "description": "ESP32-S3-N16R8-AI BOX Version mit 1.28inch 240x240 GC9A01 TFT Display",
       "firmware": {
         "latest": {
-          "version": "1.0.34",
-          "url": "v1.0.34/manifest.json",
+          "version": "1.0.36",
+          "url": "v1.0.36/manifest.json",
           "date": "2026-02-12"
         },
         "versions": [
           {
+            "version": "1.0.36",
+            "url": "v1.0.36/manifest.json",
+            "date": "2026-02-12",
+            "latest": true,
+            "description": "ES8388 direct register control (no library conflicts, proper init)"
+          },
+          {
             "version": "1.0.34",
             "url": "v1.0.34/manifest.json",
             "date": "2026-02-12",
-            "latest": true,
             "description": "Fix ES8388 I2C address (0x10 → 0x18)"
           },
           {

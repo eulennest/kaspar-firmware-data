@@ -1,0 +1,15 @@
+{
+  "name": "Kaspar Voice Assistant v1.0.36",
+  "version": "1.0.36",
+  "home_assistant_domain": "esp32",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {"path": "bootloader.bin", "offset": 4096},
+        {"path": "partitions.bin", "offset": 32768},
+        {"path": "firmware.bin", "offset": 65536}
+      ]
+    }
+  ]
+}
