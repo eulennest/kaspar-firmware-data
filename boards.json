@@ -9,16 +9,22 @@
       "description": "ESP32-S3-N16R8-AI BOX Version mit 1.28inch 240x240 GC9A01 TFT Display",
       "firmware": {
         "latest": {
-          "version": "1.0.32",
-          "url": "v1.0.32/manifest.json",
+          "version": "1.0.33",
+          "url": "v1.0.33/manifest.json",
           "date": "2026-02-12"
         },
         "versions": [
           {
+            "version": "1.0.33",
+            "url": "v1.0.33/manifest.json",
+            "date": "2026-02-12",
+            "latest": true,
+            "description": "Proper ES8388 driver (correct registers, stereo I2S, no libraries)"
+          },
+          {
             "version": "1.0.32",
             "url": "v1.0.32/manifest.json",
             "date": "2026-02-12",
-            "latest": true,
             "description": "Fix I2S double-init (no re-init in startup_sound)"
           },
           {
